@@ -1,7 +1,7 @@
-const which = () => {
+const which = (op) => {
   let readline = require('readline-sync');
-  let operation = readline.question('Milyen műveletet szeretnél elvégezni a megadott számokkal?');
-  return operation;
+  op = readline.question('Milyen műveletet szeretnél elvégezni a megadott számokkal?');
+  return op;
 };
 
 module.exports = which;
