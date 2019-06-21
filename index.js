@@ -1,6 +1,6 @@
 
 let result = require('./result');
-let ask1 = require('./readline-num');
+let ask1 = require('./ask1');
 let ask2 = require('./ask2');
 let operation = require('./readline-op');
 let div = require('./div');
